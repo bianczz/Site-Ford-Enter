@@ -1,0 +1,111 @@
+            /*Estilização da página index*/
+
+.center{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 35pt;
+    color: rgb(176, 57, 57);
+    font-family: cursive;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items:center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+.menu2{
+    font-size: 20pt;
+    padding: 25px;
+}
+ 
+#menu li a{
+    text-decoration: none;
+    color: darkred;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#menu li a:hover{
+    color: red;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-300{
+    width: 300px;
+    height: 300px;
+}
+.foto{
+    transition: all .5s;
+    border: 10px solid #eeeeee;
+}
+
+.foto:hover{
+    transition: all .5s;
+    border:  10px  solid #781f40;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px  rgba(0,0,0,.5) );
+    transform: rotatez(-360deg) scale(1.5);
+}
+
+.fundo {
+    background-image: url(../img/fundo1.jpg);
+}
+
+.fundo{
+    background-image: url(../img/fundo1.jpg);
+}
+
+.texto{
+    color: white;
+    font-weight: bold;
+}
+
+/*Estilo da página contato*/
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+    display: inline;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.rs1{
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.rs1:hover {
+    -webkit-filter: drop-shadow(10px 10px 5px rgba(255,0,0,.5));
+    filter: drop-shadow (10px 10px 5px(0,0,0.5));
+    transform: rotate(-360deg);
+}
+
+
